@@ -22,6 +22,6 @@ jobs:
         touch DB/jukebox.sql
     - name: Execute tests (Unit and Feature tests) via PHPUnit/Pest
       env:
-        DB_CONNECTION: sqlite
-        DB_DATABASE: database/database.sqlite
+        DB_CONNECTION: sql dump
+        DB_DATABASE: DB/jukebox.sql
       run: php artisan test
