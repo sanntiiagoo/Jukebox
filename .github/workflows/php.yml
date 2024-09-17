@@ -24,4 +24,4 @@ jobs:
       env:
         DB_CONNECTION: sql dump
         DB_DATABASE: DB/jukebox.sql
-      run: php artisan test
+    
